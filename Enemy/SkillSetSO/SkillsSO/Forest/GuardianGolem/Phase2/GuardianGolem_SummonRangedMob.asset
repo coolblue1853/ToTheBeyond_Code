@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cfe90fecc70ff440b012af25cd6211a, type: 3}
+  m_Name: GuardianGolem_SummonRangedMob
+  m_EditorClassIdentifier: 
+  coolTime: 5
+  attackDamage: 7
+  duration: 1
+  isEffectLeft: 0
+  playerLayerMask: 8
+  rangedMinionPrefab: {fileID: 5188048997191046595, guid: 1f5bb57a904b2534f890b9fd0c8cce0b, type: 3}
+  summonCount: 2
+  summonRadius: 3
+  delayBetweenSummons: 0.3
+  spawnY: -1

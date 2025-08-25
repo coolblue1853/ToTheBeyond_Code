@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f508c6ae76c8fe489fcabaab57cb54e, type: 3}
+  m_Name: GuardianGolem_DashEdge
+  m_EditorClassIdentifier: 
+  coolTime: 5
+  attackDamage: 12
+  duration: 2
+  isEffectLeft: 1
+  playerLayerMask: 8
+  dashSpeed: 50
+  hitEffectPrefab: {fileID: 9152887273690762127, guid: 602e33c0367d944a5be64c47d0545cc0, type: 3}
+  isBoss: 1
+  offset: {x: 0, y: -0.7}
+  dashType: 0
+  dashTargetXLeft: 0
+  dashTargetXRight: 30

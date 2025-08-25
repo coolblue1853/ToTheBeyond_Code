@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfdae7e920d40344c9a9e154dc6ffeda, type: 3}
+  m_Name: EntTree
+  m_EditorClassIdentifier: 
+  skills:
+  - {fileID: 11400000, guid: b1eaa5ebe4d8c2144a8fd61c043a64dd, type: 2}
+  - {fileID: 11400000, guid: d353946874361c942b2d68ae8fd41a98, type: 2}

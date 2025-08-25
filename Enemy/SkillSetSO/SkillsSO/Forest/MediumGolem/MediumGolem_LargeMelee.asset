@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70607702cbfca6242a98b404995433bc, type: 3}
+  m_Name: MediumGolem_LargeMelee
+  m_EditorClassIdentifier: 
+  coolTime: 3
+  attackDamage: 8
+  duration: 1
+  isEffectLeft: 0
+  playerLayerMask: 8
+  hitEffectPrefab: {fileID: 1320970756378984686, guid: 6ede21e8ecb66442aaeb48f27dacc070, type: 3}
+  meleeType: 0
+  meleeSize: 1
+  dashMeleeMinRange: 3

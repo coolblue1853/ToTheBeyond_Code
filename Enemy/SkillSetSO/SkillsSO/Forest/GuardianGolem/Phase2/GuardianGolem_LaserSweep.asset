@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 709ae132159f93d4abd9f84659bbbd57, type: 3}
+  m_Name: GuardianGolem_LaserSweep
+  m_EditorClassIdentifier: 
+  coolTime: 7
+  attackDamage: 15
+  duration: 10
+  isEffectLeft: 1
+  playerLayerMask: 8
+  laserPrefab: {fileID: 4017506805578242034, guid: efb2b19c7960b894994b570e6aad3257, type: 3}
+  previewLaserPrefab: {fileID: 2499179124483248666, guid: bc4bf736886e34beab25a2bef94b7354, type: 3}
+  laserLength: 1
+  laserWidth: 1
+  laserDuration: 1
+  preivewLaserDuration: 0.5
+  laserType: 0
+  laserHeadWidth: 1
+  xMin: 0
+  xMax: 35
+  tileCount: 7
+  yMin: -6
+  yMax: -4
+  stoneExplodedPrefab: {fileID: 7344262537898949134, guid: e6e806ffc41da48249c6facaa574d63c, type: 3}
+  stoneOffset: 1
+  dashSpeed: 25
+  hitEffectPrefab: {fileID: 9152887273690762127, guid: 602e33c0367d944a5be64c47d0545cc0, type: 3}
+  _aimUpDegrees: 3

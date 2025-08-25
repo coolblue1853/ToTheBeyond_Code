@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79d9ecde1e38d4a888ccab432449580f, type: 3}
+  m_Name: GuardianGolem_Meteor
+  m_EditorClassIdentifier: 
+  coolTime: 5
+  attackDamage: 15
+  duration: 10
+  isEffectLeft: 0
+  playerLayerMask: 8
+  laserEffectPrefab: {fileID: 735154724756947737, guid: 0099aebcd1e4d4d8990ab1c19762be4e, type: 3}
+  fallingSpherePrefab: {fileID: 6831974863820515359, guid: 24e80112760434ce6b2218521835b087, type: 3}
+  hitEffectPrefab: {fileID: 258058498638540402, guid: 896d1e774a39d4a529dd54b7ffa47497, type: 3}
+  laserDuration: 1
+  sphereFallDelay: 0.1
+  projectileDuration: 0.1
+  startY: 20
+  laserLength: 1
+  laserWidth: 0.5
+  headWidth: 1
+  redIndicatorPrefab: {fileID: 2202753765776489774, guid: 86cf660eabdaf4c19b3082eeb21c950a, type: 3}
+  indicatorDuration: 0.5
+  totalWaves: 7
+  meteorsPerWave: 15

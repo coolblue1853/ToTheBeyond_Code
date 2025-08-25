@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70607702cbfca6242a98b404995433bc, type: 3}
+  m_Name: GuardianGolem_Melee
+  m_EditorClassIdentifier: 
+  coolTime: 5
+  attackDamage: 10
+  duration: 2
+  isEffectLeft: 0
+  playerLayerMask: 8
+  hitEffectPrefab: {fileID: 364155703085572422, guid: 44bcecb0534c046399a6d17fd6b8ef4e, type: 3}
+  meleeType: 0
+  meleeSize: 0
+  dashMeleeMinRange: 3

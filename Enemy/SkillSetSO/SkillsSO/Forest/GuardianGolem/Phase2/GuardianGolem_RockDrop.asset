@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d40a64f8ab937fc4ca6e33c20ca4ba94, type: 3}
+  m_Name: GuardianGolem_RockDrop
+  m_EditorClassIdentifier: 
+  coolTime: 7
+  attackDamage: 12
+  duration: 6
+  isEffectLeft: 0
+  playerLayerMask: 8
+  rockPrefab: {fileID: 4718883753804712474, guid: dcdf1f6fb34217543893f97983478ffb, type: 3}
+  numberOfRocks: 10
+  dropInterval: 0.5
+  dropXMin: 0
+  dropXMax: 35
+  dropY: 20
+  warningPrefab: {fileID: 2202753765776489774, guid: 86cf660eabdaf4c19b3082eeb21c950a, type: 3}
+  indicatorY: -3
+  indicatorDuration: 0.3
+  indicatorScale: {x: 2.5, y: 2, z: 1}

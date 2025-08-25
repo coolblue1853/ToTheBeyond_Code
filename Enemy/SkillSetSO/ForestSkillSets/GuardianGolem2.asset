@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfdae7e920d40344c9a9e154dc6ffeda, type: 3}
+  m_Name: GuardianGolem2
+  m_EditorClassIdentifier: 
+  skills:
+  - {fileID: 11400000, guid: 689207d2597745446bccdaef2034bb27, type: 2}
+  - {fileID: 11400000, guid: 15bac9c49a27c4f6cad435ac5eebcf1f, type: 2}
+  - {fileID: 11400000, guid: b1415d5cc5b41aa409224517f625d11e, type: 2}
+  - {fileID: 11400000, guid: d2870ba8da0029e4e839419380449de7, type: 2}
+  - {fileID: 11400000, guid: 48c95b84796615448a9eb3f0badf5f74, type: 2}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f4a3d5a30e0bc4cab05f76fc255622, type: 3}
+  m_Name: SmallGolem_Laser
+  m_EditorClassIdentifier: 
+  coolTime: 3
+  attackDamage: 5
+  duration: 2
+  isEffectLeft: 0
+  playerLayerMask: 8
+  laserPrefab: {fileID: 4017506805578242034, guid: efb2b19c7960b894994b570e6aad3257, type: 3}
+  previewLaserPrefab: {fileID: 2499179124483248666, guid: bc4bf736886e34beab25a2bef94b7354, type: 3}
+  pivot: {fileID: 0}
+  laserLength: 1
+  laserWidth: 0.3
+  laserDuration: 1
+  preivewLaserDuration: 0.4
+  laserType: 1
+  laserHeadWidth: 1
